@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+.itemBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  row-gap: 30px;
+}
+
+#input {
+  padding: 10px 40px;
+  outline-color: blue;
+  outline-width: 4px;
+}
+
+.btn {
+  padding: 10px 20px;
+  color: white;
+  background-color: black;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.box {
+  width: 18%;
+  height: 40vh;
+  background: rgba(0, 0, 0, 0.329);
+  overflow-y: scroll;
+}
+
+.boxItem{
+    width: inherit;
+    height: 50px;
+    background-color: yellowgreen;
+    margin: 10px;
+    text-align: center;
+}
+
+.boxItemspan{
+    color: white;
+    line-height: 50px;
+   
+}
